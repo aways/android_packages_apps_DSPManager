@@ -4,6 +4,20 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := libcyanogen-dsp
 
+LOCAL_CFLAGS := -O3 \
+                -fomit-frame-pointer \
+                -funsafe-math-optimizations \
+                -fstrict-aliasing \
+		-funswitch-loops \
+                -Wstrict-aliasing=2 \
+                -Werror=strict-aliasing \
+                -pipe \
+		-floop-interchange \
+		-floop-strip-mine \
+		-floop-block \
+		-ffast-math \
+		-funsafe-loop-optimizations
+
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/soundfx
@@ -16,6 +30,7 @@ LOCAL_SRC_FILES := \
 	cyanogen-dsp.cpp \
 	Biquad.cpp \
 	Delay.cpp \
+        Dither.cpp \
 	Effect.cpp \
 	EffectBassBoost.cpp \
 	EffectCompression.cpp \

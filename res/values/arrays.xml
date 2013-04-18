@@ -42,6 +42,9 @@
     <item>@string/eq_preset_treble_booster</item>
     <item>@string/eq_preset_treble_reducer</item>
     <item>@string/eq_preset_vocal_booster</item>
+    <item>@string/eq_preset_unique</item>
+    <item>@string/eq_preset_unique_ii</item>
+    <item>@string/eq_preset_unique_iii</item>
     <item>@string/eq_preset_custom</item>
   </string-array>
 
@@ -78,31 +81,50 @@
     <item>0.0;0.0;0.0;0.0;4.0;6.5;</item>     <!-- Treble Booster -->
     <item>0.0;0.0;0.0;0.0;-6.5;-4.0;</item>   <!-- Treble Reducer -->
     <item>-2.5;-2.5;0.0;3.5;1.5;-2.0;</item>  <!-- Vocal Booster -->
+    <item>6.7;-1.5;3.1;-1.5;6.7;3.0;</item>   <!-- Unique -->
+    <item>4.4;2.2;1.1;0.0;3.1;6.2;</item>     <!-- Unique II -->
+    <item>6.7;2.5;3.5;2.0;5.5;3.0;</item>     <!-- Unique III -->
     <item>custom</item>                       <!-- Custom -->
   </string-array>
 
   <string-array name="compression_modes">
-    <item>Slight</item>
+    <item>Weakest</item>
+    <item>Weaker</item>
+    <item>Weak</item>
     <item>Moderate</item>
+    <item>Strong</item>
+    <item>Stronger</item>
     <item>Extreme</item>
   </string-array>
 
   <string-array name="compression_modes_values" translatable="false">
     <item>50</item>
     <item>100</item>
+    <item>150</item>
+    <item>200</item>
+    <item>250</item>
     <item>300</item>
+    <item>350</item>
   </string-array>
 
   <string-array name="bassboost_modes">
-    <item>Slight</item>
+    <item>Weakest</item>
+    <item>Weaker</item>
+    <item>Weak</item>
     <item>Moderate</item>
+    <item>Strong</item>
+    <item>Stronger</item>
     <item>Extreme</item>
   </string-array>
 
   <string-array name="bassboost_modes_values" translatable="false">
     <item>0</item>
+    <item>100</item>
+    <item>250</item>
     <item>500</item>
+    <item>750</item>
     <item>1000</item>
+    <item>1200</item>
   </string-array>
 
   <string-array name="wm8994_bassboost_modes">

@@ -49,6 +49,9 @@
     <string name="eq_preset_treble_booster">Treble booster</string>
     <string name="eq_preset_treble_reducer">Treble reducer</string>
     <string name="eq_preset_vocal_booster">Vocal booster</string>
+    <string name="eq_preset_unique">Unique</string>
+    <string name="eq_preset_unique_ii">Unique II</string>
+    <string name="eq_preset_unique_iii">Unique III</string>
     <string name="eq_preset_custom">Custom</string>
 
     <!-- WM8994 -->
@@ -176,5 +179,8 @@ enabled whenever using stereo headsets.
 \n\n
 Because the mixing reduces the stereo separation somewhat, there is a
 Haas effect reverb, which can be used to increase the perceived stereo image
-width. This is controlled by the \'Room type\' control.</string>
+width. This is controlled by the \'Room type\' control.
+\n\n\n
+<b>Copyright (C) 2013 The CyanogenMod Project. Modified by Xylon Team 2013.</b>
+</string>
 </resources>
