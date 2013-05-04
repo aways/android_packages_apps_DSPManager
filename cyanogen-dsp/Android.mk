@@ -6,17 +6,10 @@ LOCAL_MODULE := libcyanogen-dsp
 
 LOCAL_CFLAGS := -O3 \
                 -fomit-frame-pointer \
-                -funsafe-math-optimizations \
-                -fstrict-aliasing \
-		-funswitch-loops \
-                -Wstrict-aliasing=2 \
-                -Werror=strict-aliasing \
+                -funswitch-loops \
                 -pipe \
-		-floop-interchange \
-		-floop-strip-mine \
-		-floop-block \
-		-ffast-math \
-		-funsafe-loop-optimizations
+                -Wstrict-aliasing=2 \
+                -Werror=strict-aliasing
 
 LOCAL_MODULE_TAGS := optional
 
