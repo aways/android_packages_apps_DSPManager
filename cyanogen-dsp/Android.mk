@@ -9,7 +9,7 @@ LOCAL_CFLAGS := -O3 \
                 -funswitch-loops \
                 -pipe \
                 -Wstrict-aliasing=2 \
-                -Werror=strict-aliasing
+                -Wno-error=strict-aliasing
 
 LOCAL_MODULE_TAGS := optional
 
