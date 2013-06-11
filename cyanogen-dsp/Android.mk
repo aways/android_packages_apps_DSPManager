@@ -7,8 +7,10 @@ LOCAL_MODULE := libcyanogen-dsp
 LOCAL_CFLAGS := -O3 \
                 -fomit-frame-pointer \
                 -funswitch-loops \
+                -fno-strict-aliasing \
                 -pipe \
-                -Wstrict-aliasing=2
+                -Wstrict-aliasing=2 \
+                -Werror=strict-aliasing
 
 LOCAL_MODULE_TAGS := optional
 
