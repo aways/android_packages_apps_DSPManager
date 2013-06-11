@@ -8,8 +8,7 @@ LOCAL_CFLAGS := -O3 \
                 -fomit-frame-pointer \
                 -funswitch-loops \
                 -pipe \
-                -Wstrict-aliasing=2 \
-                -Wno-error=strict-aliasing
+                -Wstrict-aliasing=2
 
 LOCAL_MODULE_TAGS := optional
 
